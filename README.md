@@ -4,7 +4,7 @@ A web-based **Crop Management System** developed using **HTML, CSS, JavaScript, 
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 The Crop Management System is designed to assist farmers in selecting suitable crops based on agricultural parameters such as **soil type**, **season**, **irrigation type**, and **land area**.
 
@@ -37,14 +37,14 @@ The system stores farmer information in a MySQL database and retrieves the most 
 - Displays different fertilizers using informative cards.
 - Helps farmers understand commonly used fertilizers.
 
-### 👨‍💼 Admin Panel
+###  Admin Panel
 - View all farmer records.
 - Update farmer details.
 - Delete farmer records.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 - HTML5
@@ -103,7 +103,7 @@ Crop_Management/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Crop-Management-System.git
+git clone https://github.com/kaveri-dhikale/Crop-Management-System.git
 ```
 
 ### 2. Open the Project
@@ -170,16 +170,15 @@ screenshots/
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+###  Home Page
 
 ![Home Page](screenshots/home.png)
 
 ---
 
-### 👨‍🌾 Farmer Registration
+### Farmer Registration 
 
-![Registration](screenshots/registration.png)
-
+![Farmer Registration](screenshots/Registration.png)
 ---
 
 ### 🌱 Crop Recommendation
@@ -199,9 +198,10 @@ screenshots/
 ![Admin Panel](screenshots/admin-panel.png)
 
 
----
 
-## 🚀 Future Improvements
+
+
+##  Future Improvements
 
 - User Authentication
 - Password Encryption
@@ -215,7 +215,7 @@ screenshots/
 
 ---
 
-## 📌 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I gained practical experience in:
 
