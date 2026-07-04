@@ -1,0 +1,35 @@
+{
+  "name": "crop_management",
+  "version": "1.0.0",
+  "description": "A web-based Crop Management System built using HTML, CSS, JavaScript, Node.js, Express.js, and MySQL. The system helps farmers manage crop information, fertilizer recommendations, and user registration through an interactive web interface.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "crop-management",
+    "agriculture",
+    "farming",
+    "nodejs",
+    "express",
+    "mysql",
+    "html",
+    "css",
+    "javascript",
+    "web-application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

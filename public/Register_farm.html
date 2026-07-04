@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crop Information</title>
+    <link rel="stylesheet" href="Register_farm.css">
+</head>
+
+<body>
+
+    <!-- Navbar (Top Fixed) -->
+    <div class="navbar">
+        <ul>
+            <li><a href="hom.html">Home</a></li>
+            <li><a href="Register_farm.html">Crop Information</a></li>
+            <li ><a href="fertilizer.html">Fertilizer</a></li>
+            <li>About</li>
+            <li>Contact</li>
+            <li><a href="reg.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+
+    <!-- Banner Section -->
+    <div class="form-container">
+
+        <div class="content">
+
+            <!-- Title -->
+            <!-- <h1 class="title">Crop Management Service</h1> -->
+
+            <!-- Registration Form -->
+            <form class="register-form" id="farmerCropForm">
+
+                <h2>Crop Information </h2>
+
+                <div class="form-grid">
+
+                    <!-- Full Name -->
+                    <div class="input-group full-width">
+                        <input type="text" name="full_name" placeholder="Full Name" required>
+                    </div>
+
+                    <!-- Mobile -->
+                    <div class="input-group">
+                        <input type="tel" name="mobile" placeholder="Mobile Number" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="input-group">
+                        <input type="email" name="email" placeholder="Email (optional)">
+                    </div>
+
+                    <!-- Farm Area -->
+                    <div class="input-group">
+                        <input type="number" name="area" placeholder="Farm Area (in acres)" required>
+                    </div>
+
+                    <!-- Soil Type -->
+                    <div class="input-group">
+                        <select name="soil_type" required>
+                            <option value="">Select Soil Type</option>
+                            <option>Black</option>
+                            <option>Red</option>
+                            <option>Sandy</option>
+                            <option>Clay</option>
+                            <option>Loamy</option>
+                            <option>Alluvial</option>
+                        </select>
+                    </div>
+
+                    <!-- Irrigation -->
+                    <div class="input-group">
+                        <select name="irrigation" required>
+                            <option value="">Select Irrigation Type</option>
+                            <option>Rain-fed</option>
+                            <option>Canal Irrigation</option>
+                            <option>Borewell</option>
+                            <option>Drip Irrigation</option>
+                            <option>Sprinkler Irrigation</option>
+                        </select>
+                    </div>
+
+                    <!-- Season -->
+                    <div class="input-group">
+                        <select name="season" required>
+                            <option value="">Select Season</option>
+                            <option>Kharif</option>
+                            <option>Rabi</option>
+                            <option>Zaid</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- Button -->
+                <button type="submit">Register</button>
+
+                <div id="cropResult"></div>
+            </form>
+
+            
+        </div>
+
+    </div>
+    <script src="farmer_crop.js"></script>
+</body>
+</html>

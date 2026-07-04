@@ -1,0 +1,180 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background (light green theme) */
+body {
+  background-color: #e8f5e9;
+}
+
+/* Banner section (same as login page) */
+.form-container {
+  margin: 30px 10px;
+  padding: 30px 0;
+
+  height: 600px;
+
+  background:
+    linear-gradient(rgba(0, 100, 0, 0.4), rgba(0, 100, 0, 0.4));
+    /* url('fertilizer_back_img.webp'); */
+
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 12px;
+
+
+
+  background-size: 100% auto;
+background-position: top center;
+background-repeat: no-repeat;
+}
+
+/* Form card */
+.register-form {
+  width: 500px;
+  padding: 30px;
+
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 12px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+/* Grid layout (2 columns) */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 👈 2 inputs per row */
+  gap: 15px;
+}
+
+/* Full width fields */
+.full-width {
+  grid-column: span 2;
+}
+
+/* Input styling */
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Focus effect */
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #2e7d32;
+  box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+}
+
+/* Button */
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: #2e7d32;
+  color: white;
+  font-size: 16px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #1b5e20;
+}
+
+#cropResult {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e6ffe6;
+    border: 1px solid green;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* Navbar at top */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  height: 50px; /* better than 20px */
+  background: rgba(0, 100, 0, 0.9);
+
+  display: flex;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+/* UL styling */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;  /* right side */
+  align-items: center;
+
+  width: 100%;
+  margin: 0;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+/* List items */
+.navbar ul li {
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Links */
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hover */
+.navbar ul li:hover {
+  color: #c8ffc8;
+}
+
+/* Prevent content hiding under navbar */
+body {
+  padding-top: 60px;
+}
